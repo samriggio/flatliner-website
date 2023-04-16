@@ -121,12 +121,20 @@ input, select, textarea {
 				font-size: 12pt;
 			}
 
+			h1 {
+				font-size: 200pt;
+			}
+
 		}
 
 		@media screen and (max-width: 736px) {
 
 			html {
 				font-size: 11pt;
+			}
+
+			h1 {
+				font-size: 140pt;
 			}
 
 		}
@@ -137,10 +145,14 @@ input, select, textarea {
 				font-size: 10pt;
 			}
 
+			h1 {
+				font-size: 2em;
+			}
+
 		}
 
 	body, input, select, textarea {
-		color: #ffffff;
+		color: #e6e6e6;
 		font-family: "Source Sans Pro", sans-serif;
 		font-weight: 300;
 		font-size: 1rem;
@@ -175,8 +187,10 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #ffffff;
-		font-weight: 600;
+		color: #e6e6e6;
+		font-family:  stencil-std, sans-serif;
+		font-style: normal;
+		font-weight: 400;
 		line-height: 1.5;
 		margin: 0 0 1rem 0;
 		text-transform: uppercase;
@@ -1112,6 +1126,7 @@ input, select, textarea {
 		-ms-transform: scale(1.0);
 		transform: scale(1.0);
 		-webkit-backface-visibility: hidden;
+		backface-visibility: hidden;
 		position: fixed;
 		top: 0;
 		left: 0;
@@ -1140,9 +1155,12 @@ input, select, textarea {
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
 			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png");
-			background-size: auto, 256px 256px;
-			background-position: center, center;
-			background-repeat: no-repeat, repeat;
+			background-size: auto,
+ 256px 256px;
+			background-position: center,
+ center;
+			background-repeat: no-repeat,
+ repeat;
 			z-index: 2;
 		}
 
@@ -1316,8 +1334,8 @@ input, select, textarea {
 				-webkit-transition-delay: 0.25s;
 				-ms-transition-delay: 0.25s;
 				transition-delay: 0.25s;
-				padding: 3rem 2rem;
-				max-height: 40rem;
+				padding: 2rem 2rem;
+				max-height: 50rem;
 				overflow: hidden;
 			}
 
